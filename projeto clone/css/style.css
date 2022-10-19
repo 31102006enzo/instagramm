@@ -1,0 +1,95 @@
+/*CSS RESET*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    background-color: white;
+}
+/*Containers*/
+#main-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+#banner-container,
+#form-container {
+    flex: 1 1 0;
+    width: 50%;
+}
+
+#banner-container {
+    text-align: right;
+}
+
+#banner-container img{
+    margin-right: -15px;
+}
+
+#form-container {
+    text-align: center;
+}
+/*LOGIN FORM*/
+#form-box {
+    background-color: white;
+    border: 1px solid whitesmoke;
+    width: 150px;
+    margin-top: 30px;
+}
+
+#form-box #logo-insta {
+    width: 175px;
+    height: 51px;
+    margin: 30px auto 12px;
+    background-color: white;
+}
+
+#login-form {
+    margin-top: 20px;
+}
+
+#login-form input {
+    display: block;
+    font-size: 12px;
+    padding: 12px 9px;
+    background-color: white;
+    border: 1px solid whitesmoke;
+    border-radius: 1px;
+    width: 200px;
+    margin: 1px auto;
+}
+
+#login-form input[type="submit"] {
+    background-color: #B2DFFC;
+    color: whitesmoke;
+    margin-top: 11px;
+    border-radius: 5px;
+    border-color: #B2DFFC;
+    height: 30px;
+    font-size: 11px;
+    padding: 0;
+    font-weight: bold;
+}
+
+.separator {
+    position: relative;
+}
+
+.separator .line {
+    border-top: 1px solid white;
+    width: 268px;
+    margin: 25px auto 35px auto;
+}
+
+.separator span {
+    position: absolute;
+    text-transform: uppercase;
+    color: white;
+    top: -6px;
+    width: 50px;
+    left: 50%;
+    margin-left: -25px;
+    font-size: 14px;
+}
+
